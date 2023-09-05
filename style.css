@@ -1,0 +1,67 @@
+
+body{
+    background-image: linear-gradient(
+        -225deg,
+        #e9e29600 0%,
+        #df28c9 32%,
+        #5a1c83e9 52%,
+        #f7ef0265 100%
+      );
+}
+.nameShow{
+    align-items: center;
+    justify-content: center;
+
+    width: 550px;
+    height: 500px;
+   
+    border-radius: 4px 3px 6px rgb(2, 10, 2);
+    margin: 100px;
+}
+
+.myTextt{
+    padding-top: 8px;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+.myTextt:hover{
+    background-color: rgb(188, 246, 227);
+    cursor: pointer;
+    box-shadow: 2px 3px 6px blueviolet;
+}
+.myButton{
+    margin-left: 10%;
+}
+.myButton:hover{
+    background-color: rgb(22, 207, 22);
+    box-shadow: 2px 3px 5px rgb(69, 66, 245);
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #e0000fd6 0%,
+    #de86e8 32%,
+    #d8c2e7e9 52%,
+    #f7ee02 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 140px;
+  margin-left: 7%;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 20% center;
+  }
+}
